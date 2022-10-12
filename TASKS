@@ -1,0 +1,142 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+#define v 7
+
+/*
+PL - Napisz program c++ wypisujący nazwisko i adres autora (nie musi być prawdziwe).
+EN - Write a c++ program that prints out the author's name and address (doesn't have to be real).
+*/
+#if(v==1)
+int main() {
+	string x, y;
+	cout << "Napisz imie i nazwisko autora: ";
+	cin >> x;
+	cin >> y;
+
+	cout << "\nOto imie i nazwisko autora: " << x << " " << y << endl;
+	return 0;
+}
+#endif
+
+/*
+PL - Napisz program c++ wypisujący nazwisko i adres autora (nie musi być prawdziwe).
+EN - Write a c++ program that prints out the author's name and address (doesn't have to be real).
+*/
+#if(v==2)
+int main() {
+	int x;
+	cout << "Podaj odleglosc w milach morskich: ";
+	cin >> x;
+	x = x * 1852;
+
+	cout << "Oto odleglosc w metrach: " << x << endl;
+
+	return 0;
+}
+#endif
+
+/*
+PL - Napisz program c++ wypisujący nazwisko i adres autora (nie musi być prawdziwe).
+EN - Write a c++ program that prints out the author's name and address (doesn't have to be real).
+*/
+#if(v==3)
+void X()
+{
+	cout << "XX XXX\n";
+}
+
+void Y()
+{
+	cout << "YY YYY\n";
+}
+
+int main() {
+	X();
+	X();
+	Y();
+	Y();
+
+	return 0;
+}
+#endif
+
+/*
+PL - Napisz program c++ wypisujący nazwisko i adres autora (nie musi być prawdziwe).
+EN - Write a c++ program that prints out the author's name and address (doesn't have to be real).
+*/
+#if(v==4)
+int main() {
+	int x;
+	cout << "Podaj swoj wiek w latach: ";
+	cin >> x;
+
+	cout << "\nOto Twoj wiek w miesiacach: " << x * 12 << endl;
+	return 0;
+}
+#endif
+
+/*
+PL - Napisz program c++ wypisujący nazwisko i adres autora (nie musi być prawdziwe).
+EN - Write a c++ program that prints out the author's name and address (doesn't have to be real).
+*/
+#if(v==5)
+double C_do_F(double y)
+{
+	y = y * 1.8 + 32.0;
+	return y;
+}
+
+int main() {
+	double x = 0.0;
+
+	cout << "Podaj temperature w stopniach Celsjusza: ";
+	cin >> x;
+
+	cout << "\nOto temperatura w Farenheitach: " << C_do_F(x) << endl;
+	return 0;
+}
+#endif
+
+/*
+PL - Napisz program c++ wypisujący nazwisko i adres autora (nie musi być prawdziwe).
+EN - Write a c++ program that prints out the author's name and address (doesn't have to be real).
+*/
+#if(v==6)
+int main() {
+	double x, y;
+	cout << "Podaj liczbe lat swietlnych: ";
+	cin >> x;
+
+	y = x * 63240;
+
+	cout << endl << x << " lat swietlnych = " << y << " jednostek astronomicznych\n";
+	return 0;
+}
+#endif
+
+/*
+PL - Napisz program c++ wypisujący nazwisko i adres autora (nie musi być prawdziwe).
+EN - Write a c++ program that prints out the author's name and address (doesn't have to be real).
+*/
+#if(v==7)
+void czas(int x, int y)
+{
+	cout << "Czas: " << x << ":" << y << endl;
+
+}
+
+int main()
+{
+	int hour, minute;
+	cout << "Podaj liczbe godzin:";
+	cin >> hour;
+	cout << "\nPodaj liczbe minut:";
+	cin >> minute;
+
+	czas(hour, minute);
+	return 0;
+}
+#endif
